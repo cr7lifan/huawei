@@ -1,0 +1,528 @@
+/*通用样式*/
+*{margin:0;padding:0;}
+body{margin:0;padding:0;color:#3a3a3a;font-size:12px}
+ol,ul{list-style: none;}
+a{text-decoration: none;color:#3a3a3a}
+/*导航栏*/
+.header{
+    width:1200px;
+    height:41px;
+    margin:0 auto;
+    padding:18px 0 15px 0;
+    position:relative;
+    line-height: 41px;
+}
+.header .layout{
+    background: #fff;
+}
+.header .left,.header .left .logo,.header .left .naver{
+    float:left;
+}
+.header .right{
+    float:right;
+}
+.header .left .logo img{
+    width:205px;
+    height:36px;
+}
+.header .left ul,{
+    /*float:left;*/
+    list-style: none;
+}
+.header .left .naver ul li img{
+    width:74px;
+    height:24px;
+    margin:8px 0;
+}
+.header .left .naver .naver-list li a{
+    text-decoration: none;
+    font-size:16px;
+    color:#333;
+}
+.header .right .text{
+    border: 0;
+    color: #3a3a3a;
+    width: 285px;
+    text-indent: 15px;
+    height: 30px;
+    line-height: 30px;
+    background-color:#e5e5e5;
+    border-radius: 30px;
+    
+}
+.layout ul li{
+    list-style: none;
+    float:left;
+    padding:0 8px;
+    color:#999;
+}
+/*details样式*/
+/*导航栏*/
+.hr{
+    height:10px;
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+}
+/*面包屑导航*/
+.bread{
+    width:1200px;
+    margin:0 auto;
+}
+.bread .breadcrumb{
+    padding-top:10px;
+    line-height:1.5;
+}
+.pro-details{
+    width:1200px;
+    margin:20px auto 0;
+}
+.pro-details .pro-left{
+    float:left;
+}
+.pro-details .pro-right{
+    float:right;
+}
+.pro-details .pro-left .pro-img{
+    width:450px;
+    height:450px;
+    margin:0 auto;
+    position:relative;
+}
+.pro-details .pro-left .pro-img img{
+    width:450px;
+    height:450px;
+}
+.position-absolute{
+    position: absolute;
+}
+.d-none{
+    display: none;
+}
+#mask{
+    width:450px;
+    height:450px;
+    background-color:#ffa;
+    opacity: .5;
+}
+#super-mask{
+    width:900px;
+    height:900px;
+}
+#div-lg{
+    width:400px; height:400px;
+    left:900px;
+    z-index:1000;
+    border: 1px solid rgba(0, 0, 0, 0.125)
+}
+.pro-details .pro-left .pro-img-sm{
+    width: 370px;
+    height: 68px;
+    margin-left: 40px;
+    margin-top:10px;
+    overflow: hidden;
+    position: relative;
+}
+.pro-details .pro-left .pro-img-sm ul li{
+    float:left;
+    margin:0 5px;
+}
+.pro-details .pro-left .pro-img-sm ul li img{
+    display: block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin: 3px 0 0 3px;
+}
+.pro-right{
+    width:700px;
+    margin-left:30px;
+}
+.pro-right .pro-title{
+    width:700px;
+    height:62px;
+    margin-bottom:10px;
+}
+.pro-right .pro-title h2{
+    font-size: 21px;
+    max-height: 84px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-weight:400;
+}
+.pro-right .pro-info{
+    background: #f5f5f5;
+    padding-top: 14px;
+    padding-bottom: 3px;
+}
+.pro-right .pro-info .pro-price{
+    width:700px;
+    height:30px;
+}
+.span-block{
+    display: inline-block;
+    width:85px;
+    height:30px;
+    text-indent: 10px;
+    line-height:30px;
+}
+.span-price{
+    display: inline-block;
+    height:30px;
+    color: #ca141d;
+    padding-right: 3px;
+    font-size:20px;
+    line-height:30px;
+}
+.pro-right .pro-info .couponTag{
+    width:700px;
+    height:30px;
+}
+.pro-right .pro-info .couponTag .pro-ticket{
+    display: inline-block;
+    background: #ef5a62;
+    color: #fff;
+    line-height: 20px;
+    padding: 0 2px;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.pro-right .pro-info .couponTag a{
+    line-height: 30px;
+    color: #ca141d;
+}
+.pro-right .pro-info .pro-sales{
+    width:700px;
+    height:64px;
+    padding-bottom:4px;
+}
+.pro-right .pro-info .pro-sales .span-block{
+    float:left;
+}
+.pro-right .pro-info .pro-sales .pro-sales-del{
+    width:615px;
+    height:30px;
+    float: left;
+}
+.pro-right .pro-info .pro-sales .pro-sales-del .pro-sales-1{
+    width: 615px;
+    min-height:30px;
+    line-height:30px;
+}
+.pro-right .pro-info .pro-sales .pro-sales-del .pro-sales-1 span{
+    /*float: left;*/
+    line-height: 18px;
+    height: 18px;
+    border: 1px solid #ca141d;
+    padding: 0 6px;
+    min-width: 24px;
+    color: #ca141d;
+    text-align: center;
+    margin:5px 10px 0 8px;  
+}
+.hr-20{
+    width:700px;
+    height:20px;
+    clear:both;
+}
+.pro-right .pro-pulldown{
+    width:700px;
+    height:30px;
+    line-height:30px;
+    margin-bottom:10px;
+}
+.pro-right .pro-pulldown .pro-address{
+    width:614px;
+    
+    float:right;
+    margin-bottom:8px;
+}
+.pro-des{
+    width:614px;
+    height:18px;
+    float:right;
+}
+.pro-right .pro-code{
+    width:700px;
+    height:30px;
+    line-height:30px;
+}
+.hr-5{
+    width:700px;
+    height:5px;
+    border-bottom:1px solid #f0f0f0;
+}
+.pro-right .pro-skus{
+    width:700px;
+    height:130px;
+    margin-top:16px;
+}
+.pro-right .pro-skus .pro-choose{
+    width:700px;
+    height:50px;
+}
+.pro-right .pro-skus .pro-choose ul{
+    width:605px;
+    height:50px;
+    float:right;
+}
+.pro-right .pro-skus .pro-choose ul li{
+    width:98px;
+    height:40px;
+    float:left;
+    margin:0 10px 10px 0;
+    line-height:40px;
+}
+.pro-right .pro-skus .pro-choose ul li a{
+    display: block;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    height: 28px;
+    border-radius: 2px;
+    position: relative;
+    padding: 0 12px;
+    line-height:28px;
+}
+.pro-right .pro-skus .pro-choose ul li:selected a{
+    border: 1px solid #ca141d;
+}
+.pro-right .pro-skus .pro-choose2{
+    width:700px;
+    height:40px;
+}
+.pro-right .pro-skus .pro-choose2 ul{
+    width:605px;
+    height:40px;
+    float:right;
+}
+.pro-right .pro-skus .pro-choose2 ul li{
+    width:132px;
+    height:30px;
+    float:left;
+    margin:0 10px 10px 0;
+    line-height:30px;
+}
+.pro-right .pro-skus .pro-choose2 ul li a{
+    display: block;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    height: 28px;
+    border-radius: 2px;
+    position: relative;
+    padding: 0 12px;
+    line-height:28px;   
+}
+.pro-right .pro-skus .pro-choose2 ul .pro-choose2-li{
+    float: left;
+    width:80px;
+    height:30px;
+    margin: 0 10px 10px 0;
+}
+.pro-right .pro-skus .pro-choose2 ul .pro-choose2-li a{
+    display: block;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    height: 28px;
+    border-radius: 2px;
+    position: relative;
+    padding: 0 12px;
+}
+.pro-right .pro-main{
+    width:700px;
+    height:84px;
+    padding-top:10px;
+}
+.pro-right .pro-main .pro-chosed{
+    width:700px;
+    height:18px;
+}
+.pro-right .pro-main .pro-chosed span{
+    display: inline-block;
+    width:85px;
+    height:18px;
+}
+.pro-right .pro-main .pro-chosed p{
+    display: inline-block;
+    color: #ca141d;
+}
+.pro-right .pro-main .pro-btns{
+    margin-top:10px;
+}
+.pro-right .pro-main .pro-btns .pro-sum{
+    float:left;
+    border: 1px solid #d6d6d6;
+    margin-right:10px;
+    border-radius: 2px;
+
+}
+.pro-right .pro-main .pro-btns .pro-sum input{
+    float: left;
+    width: 41px;
+    height: 44px;
+    line-height: 44px;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    border-right: 1px solid #e2e2e2;
+}
+.pro-right .pro-main .pro-btns .pro-sum p{
+    width: 21px;
+    float: left;
+}
+.pro-right .pro-main .pro-btns .pro-sum p a{
+    display: block;
+    font-size: 16px;
+    width: 21px;
+    height: 21px;
+    line-height: 22px;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+}
+.pro-right .pro-main .pro-btns .pro-sum p a:first-child{
+    border-bottom: 1px solid #e2e2e2;
+}
+.pro-right .pro-main .pro-btns .pro-button a{
+    display: inline-block;
+    /**/
+    width: 172px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+}
+.pro-right .pro-main .pro-btns .pro-button a:first-child{background: #fc600c;}
+.pro-right .pro-main .pro-btns .pro-button a:last-child{
+    background:#ca151d
+}
+.hr-21{
+    clear:both;
+    height:20px;
+    border-bottom:1px solid #f0f0f0;
+}
+.pro-tab{
+    position: static;
+    top: 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 100;
+}
+.pro-tab .tab-content{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+}
+.pro-tab .tab-content p{
+    padding: 36px 0 37px 0;
+    text-align: center;
+}
+.pro-tab .tab-content p a{
+    margin: 0 25px;
+    font-size: 18px;
+    padding: 0 10px 6px 10px;
+    color: #a4a4a4;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.pro-det-pic .pro-pic img{
+    vertical-align: top;
+    width: 100%;
+    min-width: 1000px;
+}
+.pro-det-pic .pro-pic-btn{
+    width:100%;
+    height:300px;
+    text-align: center;
+}
+.pro-det-pic .pro-pic-btn a{
+    font-size: 14px;
+    padding: 11px 38px 11px 38px;
+    border: 1px solid #a4a4a4;
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+    top:130px;
+}
+.pro-params .pro-layout{
+    width:1200px;
+    margin:0 auto;
+}
+.pro-params .pro-layout h2.title{
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    font-weight:400;
+    position: relative;
+}
+.pro-params .pro-layout h2.title:before{
+    content: "";
+    width: 4px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    background: #ca141d;
+}
+.pro-params .pro-layout .pro-main-params{
+    /*margin-top:30px;*/
+    padding:39px 50px 10px 16px;
+}
+.pro-params .pro-layout .pro-main-params h2{
+    font-size: 22px;
+    font-weight: 600;
+    width: 100px;
+    float: left;
+    /*position: relative;
+    top: -1px;*/
+}
+.pro-params .pro-layout .pro-main-params ul{
+    width:1000px;
+    float:right;
+    font-size:14px;
+}
+.pro-params .pro-layout .pro-main-params ul li{
+    margin-bottom:9px;
+    position: relative;
+    top:3px;
+}
+.pro-params .pro-layout .pro-main-params ul li label{
+    float: left;
+    width: 128px;
+}
+.pro-params .pro-layout .pro-main-params ul li span.float-l{
+    float: left;
+    margin-left: 0px;width: 754px;
+}
+.pro-params .pro-layout .pro-main-params ul li.list-s::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    display: block;
+    border-radius: 3px;
+    background: #d8d8d8;
+    position: absolute;
+    top: 8px;
+    left: -16px;
+}
+.hr-32{
+    height:32px;
+    clear:both;
+}
+.pro-params .bg-color{
+    background-color:#f5f5f5;
+}
+.pro-params .hr-34{
+    height:34px;
+    clear:both;
+    border-bottom:1px solid #d8d8d8;
+} 
+
+
+
